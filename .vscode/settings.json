@@ -1,0 +1,23 @@
+{
+  "debug.node.autoAttach": "on",
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "files.autoSave": "onFocusChange",
+  "workbench.settings.openDefaultKeybindings": true,
+  "workbench.settings.useSplitJSON": true,
+  "zenMode.restore": true,
+  "screencastMode.fontSize": 20,
+  "screencastMode.keyboardOverlayTimeout": 500,
+  "screencastMode.mouseIndicatorColor": "#FFF",
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "screencastMode.verticalOffset": 1,
+  "window.autoDetectColorScheme": true,
+  "window.closeWhenEmpty": true,
+  "explorer.autoReveal": "focusNoScroll",
+  "remote.restoreForwardedPorts": true,
+  "timeline.pageOnScroll": true,
+  "timeline.pageSize": 2,
+  "git.autofetch": true
+}

@@ -1,0 +1,176 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-bar {
+    width: 100%;
+    height: 60px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(66, 66, 66, 0.2);
+    position: fixed;
+    z-index: 2;
+    margin: 2px 0px;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    z-index: 3;
+    padding: 0 3px;
+    margin: 0 3px;
+}
+
+.menu-bar ul li {
+    width: 150px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-size: 24px;
+    border: 2px solid rgb(6, 21, 233);
+    border-radius: 3px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: khmer os content;
+}
+
+.menu-bar ul li:hover {
+    background-color: rgb(51, 79, 236);
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+}
+
+.menu-bar ul li:hover a {
+    color: rgb(245, 10, 10);
+}
+
+.menu-bar ul li:hover .submenu li a {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    background-color: whitesmoke;
+}
+
+.menu-bar ul li:hover .submenu ul {
+    text-align: center;
+    color: white;
+}
+
+.menu-bar ul li:hover .submenu ul li a {
+    text-align: center;
+    background-color: rgba(100, 255, 200, 0.4);
+    color: red;
+}
+
+.menu-bar ul li:hover .submenu ul li {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.8);
+    color: red;
+}
+
+.submenu ul {
+    display: none;
+    padding: 5px;
+    margin: 5px;
+    padding: top 10px;
+}
+
+.menu-bar ul li:hover.submenu a {
+    color: blue;
+    background-color: white;
+}
+
+.menu-bar ul li:hover .submenu a {
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: red;
+}
+
+.menu-bar ul li:hover .submenu ul {
+    display: block;
+    position: absolute;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    left: +31.7%;
+    border-radius: 10px;
+}
+
+
+}
+
+/*Picture*/
+.logo img {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    margin-top: 57px;
+    border-radius: 50%;
+    margin-left: -50%;
+    position: fixed;
+}
+.slide {
+    width: 100%;
+    height: 890px;
+    position: fixed;
+}
+.slide img {
+    widows: 100%;
+    height: 890px;
+    position: fixed;
+    opacity: unset;
+}
+.h1 {
+    position: absolute;
+    font-family: khmer os muol light;
+    font-size: 25px;
+    z-index: 4;
+    color: white;
+    background-color: rgba(6, 29, 235, 0.7);
+    border-radius: 15px;
+    top: 15%;
+    left: 3%;
+    text-align: center;
+}
+button:hover {
+    background-color: brown;
+}
+button {
+    margin-bottom: 10px;
+    background-color: red;
+}
+p {
+    font-size: 14px;
+    font-family: khmer content;
+}
+.submenu ul li:hover a {
+    background-color: crimson;
+    color: white;
+}
+.content {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    margin-top: +300px;
+}
+.left-logo {
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+}
+.left-logo img {
+    width: 300px;
+    height: 300px;
+}
